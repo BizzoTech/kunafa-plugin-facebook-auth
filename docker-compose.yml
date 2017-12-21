@@ -1,0 +1,10 @@
+version: '2.2'
+
+services:
+  auth-app:
+    image: bizzotech/kunafa-facebook-auth:v0.0.1
+    environment:
+      - FBSECRET
+    depends_on:
+      - auth-db
+      - public-db
