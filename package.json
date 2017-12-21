@@ -1,0 +1,8 @@
+{
+  "name": "kunafa-plugin-facebook-auth",
+  "version": "v0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:BizzoTech/kunafa-plugin-facebook-auth.git",
+  "author": "Emad Shaaban <emad.shaaban92@gmail.com>",
+  "license": "MIT"
+}
