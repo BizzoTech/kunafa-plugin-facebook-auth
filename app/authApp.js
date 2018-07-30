@@ -47,7 +47,7 @@ const removeOldSessions = async (profileId) => {
         _deleted: true
       }
     });
-    return await usersDb.bulk(deletedSessions);
+    return await usersDb.bulk({docs: deletedSessions});
   } catch (err) {
     throw err;
   }
