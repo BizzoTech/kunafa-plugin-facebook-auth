@@ -37,7 +37,7 @@ const removeOldSessions = async (profileId) => {
         profileId
       }
     });
-    if (!docs || docs.length === 0) {
+    if (!sessions.docs || sessions.docs.length === 0) {
       return;
     }
     const deletedSessions = sessions.docs.map(doc => {
