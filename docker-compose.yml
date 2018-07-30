@@ -2,7 +2,7 @@ version: '2.2'
 
 services:
   auth-app:
-    image: bizzotech/kunafa-facebook-auth:v0.0.2
+    image: bizzotech/kunafa-facebook-auth:v0.0.3
     environment:
       - FBSECRET
     depends_on:
